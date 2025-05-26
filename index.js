@@ -1,0 +1,16 @@
+{
+  "name": "n8n-on-render",
+  "version": "1.0.0",
+  "description": "n8n running on Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "n8n": "^1.x.x"  // Use a versão mais recente e estável aqui, ex: "^1.39.0"
+  },
+  "engines": {
+    "node": ">=18" // Certifique-se de que o Node.js v18 ou superior seja usado
+  }
+}
