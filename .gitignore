@@ -1,0 +1,3 @@
+node_modules/
+npm-debug.log
+.env # Se você usasse um arquivo .env para variáveis locais (Render usa variáveis de ambiente diretas)
