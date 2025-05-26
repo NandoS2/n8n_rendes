@@ -9,9 +9,7 @@
   },
   "dependencies": {
     "n8n": "^1.39.0"  
-    // Eu recomendo usar uma versão específica como "^1.39.0" (verifique a mais recente no npmjs.com/package/n8n)
-    // ou apenas "^1" para pegar a última da série 1.x.x
-    // O "x.x" no "^1.x.x" não é válido.
+
   },
   "engines": {
     "node": ">=18"
