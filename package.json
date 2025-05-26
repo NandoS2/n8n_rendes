@@ -8,11 +8,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "n8n": "^1.x.x"  // Mantenha-se atualizado com a versão mais recente e estável
-                      // Por exemplo: "^1.39.0"
-                      // Você pode verificar a versão mais recente em npmjs.com/package/n8n
+    "n8n": "^1.39.0"  
+    // Eu recomendo usar uma versão específica como "^1.39.0" (verifique a mais recente no npmjs.com/package/n8n)
+    // ou apenas "^1" para pegar a última da série 1.x.x
+    // O "x.x" no "^1.x.x" não é válido.
   },
   "engines": {
-    "node": ">=18" // Garante que o Render use uma versão do Node.js compatível com n8n
+    "node": ">=18"
   }
 }
