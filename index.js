@@ -1,16 +1,6 @@
-{
-  "name": "n8n-on-render",
-  "version": "1.0.0",
-  "description": "n8n running on Render",
-  "main": "index.js",
-  "scripts": {
-    "start": "n8n start",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "n8n": "^1.x.x"  // Use a versão mais recente e estável aqui, ex: "^1.39.0"
-  },
-  "engines": {
-    "node": ">=18" // Certifique-se de que o Node.js v18 ou superior seja usado
-  }
-}
+
+// Este arquivo é o ponto de entrada da sua aplicação Node.js.
+// Para o n8n, basta chamá-lo para ser executado.
+// O n8n fará o resto do trabalho de configuração e inicialização
+// com base nas variáveis de ambiente que você definir no Render.
+require('n8n').execute();
